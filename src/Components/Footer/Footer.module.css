@@ -15,7 +15,7 @@
     margin: 0 auto;
     margin-top: auto;
 }
-.footerLinks,
+/* .footerLinks,
 .footerLink {
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@
 .footerLink:hover {
     color: #0288d1;
     transition: all 0.5s;
-}
+} */
 .developerInfo {
     display: flex;
     width: 100%;
