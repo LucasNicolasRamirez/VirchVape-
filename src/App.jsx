@@ -30,7 +30,6 @@ function AppContent() {
 
     return (
         <>
-            <CssBaseline />
             <Header />
             <div className='fondo'>
                 {loading ? <Loader /> : (
