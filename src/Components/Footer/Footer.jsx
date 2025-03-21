@@ -5,7 +5,7 @@ function Footer() {
     return (
 
 
-        <footer className={styles.footer}>
+        <div className={styles.footer}>
 
             <div className={styles.contactInfo}>
                 <p>Contacto: info@virchvape.com</p>
@@ -29,7 +29,7 @@ function Footer() {
                     </p>
                 </a>
             </div>
-        </footer>
+        </div>
 
     )
 }
