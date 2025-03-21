@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import './App.css';
-// import CssBaseline from '@mui/material/CssBaseline';
+import CssBaseline from '@mui/material/CssBaseline';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Home from './Pages/HomePage';
@@ -64,7 +64,7 @@ function App() {
     return (
         <ProveedorTema>
             <Router>
-            {/* <CssBaseline /> */}
+            <CssBaseline />
                 {loading ? <VirchVapeLoader /> : <AppContent />}
             </Router>
         </ProveedorTema>
