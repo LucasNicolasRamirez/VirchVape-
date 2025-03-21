@@ -1,4 +1,4 @@
-// import { Divider } from '@mui/material';
+import { Divider } from '@mui/material';
 import styles from './Footer.module.css';
 
 function Footer() {
@@ -18,7 +18,7 @@ function Footer() {
                     <a href="/contacto" className={styles.footerLink}>Contacto</a>
                 </div> */}
 
-            {/* <Divider color="gray" sx={{ width: '100%', margin: '10px 0' }} /> */}
+            <Divider color="gray" sx={{ width: '100%', margin: '10px 0' }} />
 
             <div className={styles.developerInfo}>
                 <p className={styles.developerText}> © 2025 Todos los derechos reservados</p>

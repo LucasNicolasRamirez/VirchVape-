@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+// import 'normalize.css'
 import './App.css';
 import CssBaseline from '@mui/material/CssBaseline';
 import Header from './Components/Header/Header';
@@ -14,6 +15,7 @@ import Carrito from './Pages/Carrito';
 import Loader from './Components/Loader/Loader';
 import VirchVapeLoader from './Components/VirchVapeLoader/VirchVapeLoader';
 import Inventario from './Pages/InventarioPage';
+
 
 function AppContent() {
     const [loading, setLoading] = useState(false);
