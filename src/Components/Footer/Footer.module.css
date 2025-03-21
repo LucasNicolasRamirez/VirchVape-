@@ -1,19 +1,19 @@
 .footer {
-    width: 95%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
+    width: 95% !important;
+    position: relative !important;
+    display: flex !important;
+    flex-direction: column !important;
     /* align-items: center; */
     /* justify-content: center; */
-    font-family: 'Roboto', sans-serif;
-    background-color: rgba(68, 68, 68, 0.8);
-    backdrop-filter: blur(2px);
-    padding: 10px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
-    margin-top: auto;
-    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif !important;
+    background-color: rgba(68, 68, 68, 0.8)!important ;
+    backdrop-filter: blur(2px) !important;
+    padding: 10px !important;
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3) !important;
+    margin-top: auto !important;
+    box-sizing: border-box !important;
 }
 /* .footerLinks,
 .footerLink {
