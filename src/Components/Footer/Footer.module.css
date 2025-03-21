@@ -13,6 +13,7 @@
     border-top-left-radius: 20px;
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
     margin-top: auto;
+    box-sizing: border-box;
 }
 /* .footerLinks,
 .footerLink {
